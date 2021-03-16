@@ -17,10 +17,10 @@ deploy:
   
 properties:
   title: Spring Boot Web - Hi There!
-  MYSQL_DB_HOST: mysql-5-7
+  MYSQL_DB_HOST: postgres_master-12.2
   MYSQL_DB_NAME: springboot_web
-  MYSQL_DB_PORT: 3306
+  MYSQL_DB_PORT: 5432
   MYSQL_DB_USERNAME: springboot-web
-  MYSQL_SPRINGBOOTWEB_PASSWORD:
-    vault: MYSQL_SPRINGBOOTWEB_PASSWORD
-  nano: 69
+  POSTGRES_SPRINGBOOTWEB_PASSWORD:
+    vault: POSTGRES_SPRINGBOOTWEB_PASSWORD
+  nano: 65
